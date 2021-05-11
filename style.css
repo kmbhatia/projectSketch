@@ -23,7 +23,7 @@ body {
 }
 @media (min-width: 768px) {
   body {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 }
@@ -85,7 +85,10 @@ span {
   background: linear-gradient(65deg, rgba(217,30,24,0.4), rgba(102,51,153,0.4) 60%);
   background-color: rgba(217,30,24,0.4);
 }
-
+#circularProfiles{
+  display: flex;
+  flex-direction: row;
+}
 @-moz-keyframes fadeIn {
   from {
     opacity: 0;
